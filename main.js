@@ -7,9 +7,9 @@ let customConfig;
 $.ajax({
   url: "https://service.xirsys.com/ice",
   data: {
-    ident: "vanpho",
-    secret: "2b1c2dfe-4374-11e7-bd72-5a790223a9ce",
-    domain: "vanpho93.github.io",
+    ident: "quang",
+    secret: "c52be0de-4f58-11e7-9858-5ac0c0414ad5",
+    domain: "quangvn88.github.io",
     application: "default",
     room: "default",
     secure: 1
