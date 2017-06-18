@@ -1,4 +1,4 @@
-const socket = io('https://stream3005.herokuapp.com/');
+const socket = io('https://quangvn6388-io.herokuapp.com/');
 
 $('#div-chat').hide();
 
@@ -60,11 +60,13 @@ function playStream(idVideoTag, stream) {
 
 const peer = new Peer({ 
     key: 'peerjs', 
-    host: 'https://quangvn88peer.herokuapp.com/', 
+    host: 'quangvn6388-peer.herokuapp.com',     
     secure: true, 
-    port: 443, 
+    port: 443,
     config: customConfig 
 });
+
+// var peer = new Peer({key: 'kfm0sktg5hnkx1or'});
 
 peer.on('open', id => {
     $('#my-peer').append(id);
